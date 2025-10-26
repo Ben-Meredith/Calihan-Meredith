@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+
+{% block title %}Services | Calahan-Meredith Web Development{% endblock %}
+
+{% block content %}
+
+<!-- Page Header -->
+<section class="page-header">
+    <div class="container-custom">
+        <h1>Our Services</h1>
+        <p>Professional web development solutions tailored to your business needs</p>
+    </div>
+</section>
+
+<!-- Services Detail Section -->
+<section class="services-detail-section">
+    <div class="container-custom">
+        <div class="row">
+            <div class="col-md-6 mb-5">
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">🎨</div>
+                    <h3>Custom Website Design</h3>
+                    <p>Every business is unique, and your website should reflect that. I create custom designs from scratch that perfectly capture your brand identity and vision. No templates, no shortcuts—just clean, original code tailored specifically to your needs.</p>
+                    <ul>
+                        <li>Unique, branded designs</li>
+                        <li>User-focused layouts</li>
+                        <li>Professional aesthetics</li>
+                        <li>Modern design trends</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-6 mb-5">
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">📱</div>
+                    <h3>Responsive Development</h3>
+                    <p>With mobile traffic accounting for over 50% of web usage, responsive design isn't optional—it's essential. I build websites that adapt seamlessly to any screen size, ensuring your site looks and functions perfectly on phones, tablets, and desktops.</p>
+                    <ul>
+                        <li>Mobile-first approach</li>
+                        <li>Cross-device compatibility</li>
+                        <li>Touch-friendly interfaces</li>
+                        <li>Optimized performance</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-6 mb-5">
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">🔧</div>
+                    <h3>Interactive Features</h3>
+                    <p>Bring your website to life with dynamic, interactive elements powered by JavaScript. From smooth animations to complex functionality, I create engaging user experiences that keep visitors on your site longer.</p>
+                    <ul>
+                        <li>Smooth animations</li>
+                        <li>Interactive forms</li>
+                        <li>Dynamic content loading</li>
+                        <li>Custom functionality</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-6 mb-5">
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">⚡</div>
+                    <h3>Performance Optimization</h3>
+                    <p>Speed matters. A slow website loses visitors and hurts your search rankings. I build lightning-fast websites using clean, efficient code and optimization best practices to ensure your site loads quickly on any connection.</p>
+                    <ul>
+                        <li>Fast loading times</li>
+                        <li>Optimized images</li>
+                        <li>Efficient code</li>
+                        <li>SEO-friendly structure</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-6 mb-5">
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">🛒</div>
+                    <h3>E-commerce Solutions</h3>
+                    <p>Ready to sell online? I build custom e-commerce websites with product catalogs, shopping carts, and secure checkout processes. Take your business online with a professional store that converts visitors into customers.</p>
+                    <ul>
+                        <li>Product catalogs</li>
+                        <li>Shopping cart functionality</li>
+                        <li>Secure checkout</li>
+                        <li>Payment integration</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-md-6 mb-5">
+                <div class="service-detail-card">
+                    <div class="service-detail-icon">🔄</div>
+                    <h3>Website Maintenance</h3>
+                    <p>Keep your website running smoothly with ongoing maintenance and updates. I provide content updates, security patches, performance monitoring, and technical support to ensure your site stays current and functional.</p>
+                    <ul>
+                        <li>Regular updates</li>
+                        <li>Security monitoring</li>
+                        <li>Content changes</li>
+                        <li>Technical support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <div class="container-custom text-center">
+        <h2>Let's Discuss Your Project</h2>
+        <p>Get a free consultation and quote for your website</p>
+        <a href="{{ url_for('contact') }}" class="cta-btn">Contact Me</a>
+    </div>
+</section>
+
+{% endblock %}
