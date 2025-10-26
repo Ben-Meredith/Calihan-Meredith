@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}About | Calahan-Meredith Web Development{% endblock %}
+
+{% block content %}
+
+<!-- Page Header -->
+<section class="page-header">
+    <div class="container-custom">
+        <h1>About Me</h1>
+        <p>Passionate about creating exceptional web experiences</p>
+    </div>
+</section>
+
+<!-- About Content Section -->
+<section class="about-content-section">
+    <div class="container-custom">
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop" alt="Web Development" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h2>Creating Custom Websites from Scratch</h2>
+                <p class="lead">At Calahan-Meredith Web Development, I specialize in creating custom websites from the ground up using pure HTML, CSS, and JavaScript. No templates, no shortcuts—just clean, efficient code tailored specifically to your needs.</p>
+                <p>I believe that every business deserves a unique online presence that reflects their brand identity and values. That's why I take the time to understand your goals, your audience, and your vision before writing a single line of code.</p>
+            </div>
+        </div>
+        
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6 order-md-2">
+                <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop" alt="Modern Design" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6 order-md-1">
+                <h2>Modern, Professional Solutions</h2>
+                <p>Whether you're a small business looking for your first website, or an established company needing a modern web presence, I deliver professional results that help you stand out online.</p>
+                <p>My approach combines creative design with technical expertise, ensuring your website not only looks great but also performs flawlessly across all devices and browsers. Every project is built with attention to detail, focusing on both aesthetics and functionality.</p>
+            </div>
+        </div>
+        
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=400&fit=crop" alt="Collaboration" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h2>Collaborative Process</h2>
+                <p>I work closely with my clients throughout the entire development process, from initial concept to final launch. Your input and feedback are invaluable, and I make sure you're involved at every step.</p>
+                <p>Communication is key to a successful project. I keep you updated on progress, explain technical concepts in plain English, and ensure you're completely satisfied with the end result.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Tech Stack Section -->
+<section class="tech-stack-section">
+    <div class="container-custom text-center">
+        <h2 class="section-title">Technologies I Use</h2>
+        <p class="section-subtitle">Modern web technologies for robust, scalable solutions</p>
+        
+        <div class="tech-badges">
+            <span class="tech-badge"><i class="fab fa-html5"></i> HTML5</span>
+            <span class="tech-badge"><i class="fab fa-css3-alt"></i> CSS3</span>
+            <span class="tech-badge"><i class="fab fa-js"></i> JavaScript</span>
+            <span class="tech-badge"><i class="fab fa-bootstrap"></i> Bootstrap</span>
+            <span class="tech-badge"><i class="fab fa-git-alt"></i> Git</span>
+            <span class="tech-badge"><i class="fas fa-mobile-alt"></i> Responsive Design</span>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <div class="container-custom text-center">
+        <h2>Let's Work Together</h2>
+        <p>Ready to bring your website vision to life?</p>
+        <a href="{{ url_for('contact') }}" class="cta-btn">Start Your Project</a>
+    </div>
+</section>
+
+{% endblock %}
