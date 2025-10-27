@@ -4,112 +4,98 @@
 
 {% block content %}
 
-<!-- Page Header -->
-<section class="page-header">
-    <div class="container-custom">
-        <h1>Our Services</h1>
-        <p>Professional web development solutions tailored to your business needs</p>
+<!-- Hero -->
+<section style="background: linear-gradient(180deg, #fbfbfd 0%, #ffffff 100%); padding: 140px 22px 100px; text-align: center;">
+    <div style="max-width: 980px; margin: 0 auto;">
+        <h1 style="font-size: 72px; font-weight: 600; line-height: 1.05556; letter-spacing: -0.009em; margin-bottom: 16px; color: #1d1d1f;">
+            Services
+        </h1>
+        <p style="font-size: 28px; line-height: 1.14286; letter-spacing: -0.01em; color: #6e6e73; max-width: 700px; margin: 0 auto;">
+            Professional web development tailored to your needs.
+        </p>
     </div>
 </section>
 
-<!-- Services Detail Section -->
-<section class="services-detail-section">
-    <div class="container-custom">
-        <div class="row">
-            <div class="col-md-6 mb-5">
-                <div class="service-detail-card">
-                    <div class="service-detail-icon">🎨</div>
-                    <h3>Custom Website Design</h3>
-                    <p>Every business is unique, and your website should reflect that. I create custom designs from scratch that perfectly capture your brand identity and vision. No templates, no shortcuts—just clean, original code tailored specifically to your needs.</p>
-                    <ul>
-                        <li>Unique, branded designs</li>
-                        <li>User-focused layouts</li>
-                        <li>Professional aesthetics</li>
-                        <li>Modern design trends</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="col-md-6 mb-5">
-                <div class="service-detail-card">
-                    <div class="service-detail-icon">📱</div>
-                    <h3>Responsive Development</h3>
-                    <p>With mobile traffic accounting for over 50% of web usage, responsive design isn't optional—it's essential. I build websites that adapt seamlessly to any screen size, ensuring your site looks and functions perfectly on phones, tablets, and desktops.</p>
-                    <ul>
-                        <li>Mobile-first approach</li>
-                        <li>Cross-device compatibility</li>
-                        <li>Touch-friendly interfaces</li>
-                        <li>Optimized performance</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="col-md-6 mb-5">
-                <div class="service-detail-card">
-                    <div class="service-detail-icon">🔧</div>
-                    <h3>Interactive Features</h3>
-                    <p>Bring your website to life with dynamic, interactive elements powered by JavaScript. From smooth animations to complex functionality, I create engaging user experiences that keep visitors on your site longer.</p>
-                    <ul>
-                        <li>Smooth animations</li>
-                        <li>Interactive forms</li>
-                        <li>Dynamic content loading</li>
-                        <li>Custom functionality</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="col-md-6 mb-5">
-                <div class="service-detail-card">
-                    <div class="service-detail-icon">⚡</div>
-                    <h3>Performance Optimization</h3>
-                    <p>Speed matters. A slow website loses visitors and hurts your search rankings. I build lightning-fast websites using clean, efficient code and optimization best practices to ensure your site loads quickly on any connection.</p>
-                    <ul>
-                        <li>Fast loading times</li>
-                        <li>Optimized images</li>
-                        <li>Efficient code</li>
-                        <li>SEO-friendly structure</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="col-md-6 mb-5">
-                <div class="service-detail-card">
-                    <div class="service-detail-icon">🛒</div>
-                    <h3>E-commerce Solutions</h3>
-                    <p>Ready to sell online? I build custom e-commerce websites with product catalogs, shopping carts, and secure checkout processes. Take your business online with a professional store that converts visitors into customers.</p>
-                    <ul>
-                        <li>Product catalogs</li>
-                        <li>Shopping cart functionality</li>
-                        <li>Secure checkout</li>
-                        <li>Payment integration</li>
-                    </ul>
-                </div>
-            </div>
-            
-            <div class="col-md-6 mb-5">
-                <div class="service-detail-card">
-                    <div class="service-detail-icon">🔄</div>
-                    <h3>Website Maintenance</h3>
-                    <p>Keep your website running smoothly with ongoing maintenance and updates. I provide content updates, security patches, performance monitoring, and technical support to ensure your site stays current and functional.</p>
-                    <ul>
-                        <li>Regular updates</li>
-                        <li>Security monitoring</li>
-                        <li>Content changes</li>
-                        <li>Technical support</li>
-                    </ul>
-                </div>
+<!-- Services Grid -->
+<section style="padding: 60px 22px 100px; max-width: 1068px; margin: 0 auto;">
+    <div style="display: grid; gap: 48px;">
+        
+        <!-- Service 1 -->
+        <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 60px; align-items: center;">
+            <div style="font-size: 96px; text-align: center;">🎨</div>
+            <div>
+                <h2 style="font-size: 48px; font-weight: 600; letter-spacing: -0.003em; margin-bottom: 12px; color: #1d1d1f;">Custom Design</h2>
+                <p style="font-size: 21px; color: #6e6e73; line-height: 1.381; letter-spacing: -0.016em; margin-bottom: 16px;">Every business is unique. Your website should be too. I create custom designs from scratch—no templates, no shortcuts.</p>
+                <p style="font-size: 17px; color: #6e6e73; line-height: 1.47059; letter-spacing: -0.022em;">Unique branded designs · User-focused layouts · Modern aesthetics</p>
             </div>
         </div>
+
+        <div style="height: 1px; background: #d2d2d7;"></div>
+        
+        <!-- Service 2 -->
+        <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 60px; align-items: center;">
+            <div style="font-size: 96px; text-align: center;">📱</div>
+            <div>
+                <h2 style="font-size: 48px; font-weight: 600; letter-spacing: -0.003em; margin-bottom: 12px; color: #1d1d1f;">Responsive Development</h2>
+                <p style="font-size: 21px; color: #6e6e73; line-height: 1.381; letter-spacing: -0.016em; margin-bottom: 16px;">Your site will look perfect on every device. Mobile, tablet, desktop—it just works.</p>
+                <p style="font-size: 17px; color: #6e6e73; line-height: 1.47059; letter-spacing: -0.022em;">Mobile-first approach · Cross-device compatibility · Touch-friendly</p>
+            </div>
+        </div>
+
+        <div style="height: 1px; background: #d2d2d7;"></div>
+        
+        <!-- Service 3 -->
+        <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 60px; align-items: center;">
+            <div style="font-size: 96px; text-align: center;">⚡</div>
+            <div>
+                <h2 style="font-size: 48px; font-weight: 600; letter-spacing: -0.003em; margin-bottom: 12px; color: #1d1d1f;">Performance</h2>
+                <p style="font-size: 21px; color: #6e6e73; line-height: 1.381; letter-spacing: -0.016em; margin-bottom: 16px;">Speed matters. Lightning-fast load times with clean, efficient code.</p>
+                <p style="font-size: 17px; color: #6e6e73; line-height: 1.47059; letter-spacing: -0.022em;">Optimized images · Efficient code · SEO-friendly</p>
+            </div>
+        </div>
+
+        <div style="height: 1px; background: #d2d2d7;"></div>
+        
+        <!-- Service 4 -->
+        <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 60px; align-items: center;">
+            <div style="font-size: 96px; text-align: center;">🔧</div>
+            <div>
+                <h2 style="font-size: 48px; font-weight: 600; letter-spacing: -0.003em; margin-bottom: 12px; color: #1d1d1f;">Interactive Features</h2>
+                <p style="font-size: 21px; color: #6e6e73; line-height: 1.381; letter-spacing: -0.016em; margin-bottom: 16px;">Bring your site to life with dynamic, engaging functionality.</p>
+                <p style="font-size: 17px; color: #6e6e73; line-height: 1.47059; letter-spacing: -0.022em;">Smooth animations · Interactive forms · Custom functionality</p>
+            </div>
+        </div>
+
+        <div style="height: 1px; background: #d2d2d7;"></div>
+        
+        <!-- Service 5 -->
+        <div style="display: grid; grid-template-columns: 1fr 2fr; gap: 60px; align-items: center;">
+            <div style="font-size: 96px; text-align: center;">🛒</div>
+            <div>
+                <h2 style="font-size: 48px; font-weight: 600; letter-spacing: -0.003em; margin-bottom: 12px; color: #1d1d1f;">E-commerce</h2>
+                <p style="font-size: 21px; color: #6e6e73; line-height: 1.381; letter-spacing: -0.016em; margin-bottom: 16px;">Ready to sell online? Custom e-commerce solutions that convert.</p>
+                <p style="font-size: 17px; color: #6e6e73; line-height: 1.47059; letter-spacing: -0.022em;">Product catalogs · Shopping carts · Secure checkout</p>
+            </div>
+        </div>
+        
     </div>
 </section>
 
-<!-- CTA Section -->
-<section class="cta-section">
-    <div class="container-custom text-center">
-        <h2>Let's Discuss Your Project</h2>
-        <p>Get a free consultation and quote for your website</p>
-        <a href="{{ url_for('contact') }}" class="cta-btn">Contact Me</a>
-    </div>
+<!-- CTA -->
+<section style="background: #000; color: white; padding: 100px 22px; text-align: center;">
+    <h2 style="font-size: 56px; font-weight: 600; letter-spacing: -0.005em; margin-bottom: 16px; line-height: 1.07143;">Let's discuss your project.</h2>
+    <p style="font-size: 28px; color: rgba(255,255,255,0.8); letter-spacing: -0.01em; line-height: 1.14286; margin-bottom: 32px;">Get a free consultation and quote.</p>
+    <a href="{{ url_for('contact') }}" style="background: #0071e3; color: white; padding: 12px 22px; border-radius: 980px; text-decoration: none; font-size: 17px; letter-spacing: -0.022em; display: inline-block;">Contact me</a>
 </section>
+
+<style>
+@media (max-width: 1068px) {
+    section > div > div { grid-template-columns: 1fr !important; text-align: center !important; }
+    section h1 { font-size: 56px !important; }
+    section h2 { font-size: 40px !important; }
+    section p { font-size: 19px !important; }
+    section > div > div > div:first-child { margin-bottom: 24px; }
+}
+</style>
 
 {% endblock %}
