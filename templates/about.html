@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 
-{% block title %}About | Calahan-Meredith Web Development{% endblock %}
+{% block title %}Portfolio | Calahan-Meredith Web Development{% endblock %}
 
 {% block content %}
 
@@ -8,76 +8,109 @@
 <section style="background: linear-gradient(180deg, #fbfbfd 0%, #ffffff 100%); padding: 140px 22px 100px; text-align: center;">
     <div style="max-width: 980px; margin: 0 auto;">
         <h1 style="font-size: 72px; font-weight: 600; line-height: 1.05556; letter-spacing: -0.009em; margin-bottom: 16px; color: #1d1d1f;">
-            About
+            Portfolio
         </h1>
         <p style="font-size: 28px; line-height: 1.14286; letter-spacing: -0.01em; color: #6e6e73; max-width: 700px; margin: 0 auto;">
-            Passionate about creating exceptional web experiences.
+            A selection of recent projects.
         </p>
     </div>
 </section>
 
-<!-- Story Section -->
-<section style="padding: 80px 22px; max-width: 800px; margin: 0 auto; text-align: center;">
-    <h2 style="font-size: 56px; font-weight: 600; letter-spacing: -0.005em; margin-bottom: 24px; color: #1d1d1f; line-height: 1.07143;">
-        Built from the ground up.
-    </h2>
-    <p style="font-size: 21px; color: #6e6e73; line-height: 1.381; letter-spacing: -0.016em; margin-bottom: 24px;">
-        At Calahan-Meredith Web Development, I specialize in creating custom websites using pure HTML, CSS, and JavaScript. No templates. No shortcuts.
-    </p>
-    <p style="font-size: 21px; color: #6e6e73; line-height: 1.381; letter-spacing: -0.016em; margin-bottom: 24px;">
-        Every project starts with understanding your goals, your audience, and your vision. Then I craft something unique—just for you.
-    </p>
-    <p style="font-size: 21px; color: #6e6e73; line-height: 1.381; letter-spacing: -0.016em;">
-        Whether you're a small business launching your first site or an established company needing a modern refresh, I deliver results that help you stand out online.
-    </p>
-</section>
-
-<!-- Values Section (Apple-style: 3 columns) -->
-<section style="padding: 60px 22px; background: #fbfbfd;">
-    <div style="max-width: 1068px; margin: 0 auto;">
-        <h2 style="font-size: 48px; font-weight: 600; letter-spacing: -0.003em; text-align: center; margin-bottom: 60px; color: #1d1d1f;">How I work</h2>
+<!-- Portfolio Grid (Apple-style: clean 2-column) -->
+<section style="padding: 40px 22px 100px; max-width: 1440px; margin: 0 auto;">
+    <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 11px;">
         
-        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px;">
-            <div style="text-align: center;">
-                <div style="font-size: 64px; margin-bottom: 20px;">🎯</div>
-                <h3 style="font-size: 24px; font-weight: 600; letter-spacing: -0.009em; margin-bottom: 12px; color: #1d1d1f;">Focused</h3>
-                <p style="font-size: 17px; color: #6e6e73; line-height: 1.47059; letter-spacing: -0.022em;">Clear goals. Clean execution. No distractions.</p>
-            </div>
-            
-            <div style="text-align: center;">
-                <div style="font-size: 64px; margin-bottom: 20px;">🤝</div>
-                <h3 style="font-size: 24px; font-weight: 600; letter-spacing: -0.009em; margin-bottom: 12px; color: #1d1d1f;">Collaborative</h3>
-                <p style="font-size: 17px; color: #6e6e73; line-height: 1.47059; letter-spacing: -0.022em;">Your input matters. We build it together.</p>
-            </div>
-            
-            <div style="text-align: center;">
-                <div style="font-size: 64px; margin-bottom: 20px;">✨</div>
-                <h3 style="font-size: 24px; font-weight: 600; letter-spacing: -0.009em; margin-bottom: 12px; color: #1d1d1f;">Crafted</h3>
-                <p style="font-size: 17px; color: #6e6e73; line-height: 1.47059; letter-spacing: -0.022em;">Attention to every pixel. Every line of code.</p>
+        <!-- Project 1 -->
+        <div style="background: #fbfbfd; border-radius: 18px; overflow: hidden;">
+            <div style="aspect-ratio: 16/10; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+            <div style="padding: 40px;">
+                <h3 style="font-size: 32px; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 12px; color: #1d1d1f;">Business Website</h3>
+                <p style="font-size: 17px; color: #6e6e73; line-height: 1.47059; letter-spacing: -0.022em; margin-bottom: 20px;">Professional consulting firm site with responsive design and smooth interactions.</p>
+                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">HTML5</span>
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">CSS3</span>
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">JavaScript</span>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-
-<!-- Tech Stack -->
-<section style="padding: 100px 22px; text-align: center;">
-    <div style="max-width: 800px; margin: 0 auto;">
-        <h2 style="font-size: 48px; font-weight: 600; letter-spacing: -0.003em; margin-bottom: 48px; color: #1d1d1f;">Technologies</h2>
         
-        <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
-            <span style="background: #fbfbfd; color: #1d1d1f; padding: 10px 20px; border-radius: 980px; font-size: 14px; letter-spacing: -0.016em; border: 1px solid #d2d2d7;">HTML5</span>
-            <span style="background: #fbfbfd; color: #1d1d1f; padding: 10px 20px; border-radius: 980px; font-size: 14px; letter-spacing: -0.016em; border: 1px solid #d2d2d7;">CSS3</span>
-            <span style="background: #fbfbfd; color: #1d1d1f; padding: 10px 20px; border-radius: 980px; font-size: 14px; letter-spacing: -0.016em; border: 1px solid #d2d2d7;">JavaScript</span>
-            <span style="background: #fbfbfd; color: #1d1d1f; padding: 10px 20px; border-radius: 980px; font-size: 14px; letter-spacing: -0.016em; border: 1px solid #d2d2d7;">Responsive Design</span>
-            <span style="background: #fbfbfd; color: #1d1d1f; padding: 10px 20px; border-radius: 980px; font-size: 14px; letter-spacing: -0.016em; border: 1px solid #d2d2d7;">Modern Standards</span>
+        <!-- Project 2 -->
+        <div style="background: #fbfbfd; border-radius: 18px; overflow: hidden;">
+            <div style="aspect-ratio: 16/10; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+            <div style="padding: 40px;">
+                <h3 style="font-size: 32px; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 12px; color: #1d1d1f;">E-commerce Platform</h3>
+                <p style="font-size: 17px; color: #6e6e73; line-height: 1.47059; letter-spacing: -0.022em; margin-bottom: 20px;">Custom online store with product catalogs and secure checkout.</p>
+                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">HTML5</span>
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">CSS3</span>
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">JavaScript</span>
+                </div>
+            </div>
         </div>
+        
+        <!-- Project 3 -->
+        <div style="background: #fbfbfd; border-radius: 18px; overflow: hidden;">
+            <div style="aspect-ratio: 16/10; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+            <div style="padding: 40px;">
+                <h3 style="font-size: 32px; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 12px; color: #1d1d1f;">Landing Page</h3>
+                <p style="font-size: 17px; color: #6e6e73; line-height: 1.47059; letter-spacing: -0.022em; margin-bottom: 20px;">High-converting product landing page with compelling design.</p>
+                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">HTML5</span>
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">CSS3</span>
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">JavaScript</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project 4 -->
+        <div style="background: #fbfbfd; border-radius: 18px; overflow: hidden;">
+            <div style="aspect-ratio: 16/10; background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
+            <div style="padding: 40px;">
+                <h3 style="font-size: 32px; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 12px; color: #1d1d1f;">Restaurant Website</h3>
+                <p style="font-size: 17px; color: #6e6e73; line-height: 1.47059; letter-spacing: -0.022em; margin-bottom: 20px;">Beautiful restaurant site with online menu and reservation system.</p>
+                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">HTML5</span>
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">CSS3</span>
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">JavaScript</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project 5 -->
+        <div style="background: #fbfbfd; border-radius: 18px; overflow: hidden;">
+            <div style="aspect-ratio: 16/10; background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+            <div style="padding: 40px;">
+                <h3 style="font-size: 32px; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 12px; color: #1d1d1f;">Creative Portfolio</h3>
+                <p style="font-size: 17px; color: #6e6e73; line-height: 1.47059; letter-spacing: -0.022em; margin-bottom: 20px;">Stunning portfolio for a photographer with full-screen galleries.</p>
+                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">HTML5</span>
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">CSS3</span>
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">JavaScript</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Project 6 -->
+        <div style="background: #fbfbfd; border-radius: 18px; overflow: hidden;">
+            <div style="aspect-ratio: 16/10; background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);"></div>
+            <div style="padding: 40px;">
+                <h3 style="font-size: 32px; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 12px; color: #1d1d1f;">Corporate Website</h3>
+                <p style="font-size: 17px; color: #6e6e73; line-height: 1.47059; letter-spacing: -0.022em; margin-bottom: 20px;">Professional corporate site with team pages and contact forms.</p>
+                <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">HTML5</span>
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">CSS3</span>
+                    <span style="background: #ffffff; padding: 6px 14px; border-radius: 12px; font-size: 12px; color: #6e6e73; border: 1px solid #d2d2d7;">JavaScript</span>
+                </div>
+            </div>
+        </div>
+        
     </div>
 </section>
 
 <!-- CTA -->
 <section style="background: #000; color: white; padding: 100px 22px; text-align: center;">
-    <h2 style="font-size: 56px; font-weight: 600; letter-spacing: -0.005em; margin-bottom: 16px; line-height: 1.07143;">Let's work together.</h2>
-    <p style="font-size: 28px; color: rgba(255,255,255,0.8); letter-spacing: -0.01em; line-height: 1.14286; margin-bottom: 32px;">Ready to bring your vision to life?</p>
+    <h2 style="font-size: 56px; font-weight: 600; letter-spacing: -0.005em; margin-bottom: 16px; line-height: 1.07143;">Want to see your project here?</h2>
+    <p style="font-size: 28px; color: rgba(255,255,255,0.8); letter-spacing: -0.01em; line-height: 1.14286; margin-bottom: 32px;">Let's create something amazing together.</p>
     <a href="{{ url_for('contact') }}" style="background: #0071e3; color: white; padding: 12px 22px; border-radius: 980px; text-decoration: none; font-size: 17px; letter-spacing: -0.022em; display: inline-block;">Start your project</a>
 </section>
 
@@ -85,6 +118,7 @@
 @media (max-width: 1068px) {
     section h1 { font-size: 56px !important; }
     section h2 { font-size: 40px !important; }
+    section h3 { font-size: 28px !important; }
     section p { font-size: 19px !important; }
     section > div > div { grid-template-columns: 1fr !important; }
 }
